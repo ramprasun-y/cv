@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Early Career Recognitions — Ramprasun Sribhasyam</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Space+Mono:wght@400;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=Syne:wght@400;600;700;800&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Rajdhani:wght@300;400;500;600;700&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:           #faf8f4;
+      --bg-alt:       #fff9f2;
+      --bg-dark:      #1a1714;
+      --bg-card:      #ede8de;
+      --fg:           #1a1714;
+      --fg-soft:      #3d3830;
+      --fg-muted:     #7a7268;
+      --accent:       #c8572a;
+      --accent-light: #e8a882;
+      --accent-pale:  #f7ede6;
+      --accent2:      #2a7c7a;
+      --accent2-pale: #e3f0ef;
+      --border:       #e4ddd0;
+      --hero-r-bg:    #1a1714;
+      --display-font: 'Instrument Serif', serif;
+      --body-font:    'DM Sans', sans-serif;
+    }
+
+    html { scroll-behavior: smooth; }
+    body { font-family: var(--body-font); background: var(--bg); color: var(--fg); overflow-x: hidden; -webkit-font-smoothing: antialiased; transition: background 0.55s, color 0.55s; }
+    body::before { content: ''; position: fixed; inset: 0; background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E"); pointer-events: none; z-index: 0; opacity: 0.4; }
+
+    /* ── THEME PILL ── */
+    #theme-switcher { position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%); z-index: 200; display: flex; align-items: center; gap: 0; background: var(--bg-dark); border-radius: 100px; padding: 6px 6px 6px 16px; box-shadow: 0 -2px 28px rgba(0,0,0,0.22), 0 4px 16px rgba(0,0,0,0.18); transition: background 0.55s; }
+    #theme-label { font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase; color: rgba(255,255,255,0.38); margin-right: 10px; white-space: nowrap; }
+    #theme-name  { font-size: 12px; font-weight: 600; color: var(--accent-light); margin-right: 12px; white-space: nowrap; transition: color 0.4s; }
+    .pill-btn { border: none; cursor: pointer; border-radius: 100px; font-size: 11px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; padding: 7px 13px; transition: all 0.2s; }
+    #btn-random { background: transparent; color: rgba(255,255,255,0.35); margin-right: 3px; }
+    #btn-random:hover { color: rgba(255,255,255,0.75); }
+    #btn-next { background: var(--accent); color: #fff; transition: background 0.55s, opacity 0.2s; }
+    #btn-next:hover { opacity: 0.82; transform: translateY(-1px); }
+    #theme-dots { display: flex; gap: 5px; align-items: center; margin-left: 10px; padding-right: 4px; }
+    .tdot { width: 6px; height: 6px; border-radius: 50%; cursor: pointer; transition: all 0.25s; opacity: 0.35; border: 1px solid rgba(255,255,255,0.2); }
+    .tdot.active { opacity: 1; transform: scale(1.5); border-color: transparent; }
+
+    /* ── PAGE HEADER ── */
+    .page-header { background: var(--hero-r-bg); padding: 80px 0 64px; position: relative; overflow: hidden; transition: background 0.55s; }
+    .page-header::before { content: ''; position: absolute; top: -80px; right: -80px; width: 320px; height: 320px; background: radial-gradient(circle, rgba(42,124,122,0.18) 0%, transparent 70%); pointer-events: none; }
+    .page-header::after  { content: ''; position: absolute; bottom: -60px; left: -60px; width: 240px; height: 240px; background: radial-gradient(circle, rgba(200,87,42,0.12) 0%, transparent 70%); pointer-events: none; }
+    .header-inner { max-width: 900px; margin: 0 auto; padding: 0 48px; position: relative; z-index: 1; }
+
+    .back-link { display: inline-flex; align-items: center; gap: 8px; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(255,255,255,0.45); text-decoration: none; margin-bottom: 32px; transition: color 0.2s; }
+    .back-link:hover { color: var(--accent-light); }
+    .back-link svg { width: 14px; height: 14px; stroke: currentColor; fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+
+    .page-eyebrow { font-size: 11px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--accent-light); font-weight: 600; margin-bottom: 16px; transition: color 0.55s; }
+    .page-title { font-family: var(--display-font); font-size: clamp(36px, 5vw, 58px); line-height: 1.08; color: #fff; margin-bottom: 16px; transition: font-family 0.1s; }
+    .page-title em { font-style: italic; color: var(--accent-light); transition: color 0.55s; }
+    .page-subtitle { font-size: 15px; line-height: 1.7; color: rgba(255,255,255,0.55); font-weight: 300; max-width: 560px; }
+
+    /* ── CONTENT ── */
+    .page-body { max-width: 900px; margin: 0 auto; padding: 72px 48px 120px; position: relative; z-index: 1; }
+
+    /* ── SECTION DIVIDER ── */
+    .block-label { font-size: 10px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--accent); font-weight: 600; margin-bottom: 32px; display: flex; align-items: center; gap: 14px; transition: color 0.55s; }
+    .block-label::after { content: ''; flex: 1; height: 1px; background: var(--border); transition: background 0.55s; }
+
+    /* ── CERTIFICATION CARD ── */
+    .cert-section { margin-bottom: 72px; }
+
+    .cert-card {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 1px;
+      background: var(--border);
+      border-radius: 8px; overflow: hidden;
+      margin-bottom: 0;
+      transition: background 0.55s;
+    }
+
+    .cert-half {
+      background: var(--bg-alt); padding: 32px 28px;
+      display: flex; align-items: flex-start; gap: 18px;
+      opacity: 0; transform: translateY(14px);
+      transition: opacity 0.5s, transform 0.5s, background 0.55s;
+    }
+    .cert-half.visible { opacity: 1; transform: translateY(0); }
+
+    .cert-badge { width: 46px; height: 46px; border-radius: 10px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; font-family: var(--display-font); font-size: 15px; transition: background 0.55s, color 0.55s; }
+    .cert-badge.ms { background: var(--accent-pale); color: var(--accent); }
+    .cert-badge.mc { background: var(--accent2-pale); color: var(--accent2); }
+    .cert-name { font-size: 15px; font-weight: 600; color: var(--fg); line-height: 1.35; margin-bottom: 4px; transition: color 0.55s; }
+    .cert-issuer { font-size: 12px; color: var(--fg-muted); transition: color 0.55s; }
+
+    /* cert image below the two badges */
+    .cert-image-wrap {
+      margin-top: 1px;
+      background: var(--bg-alt);
+      border-top: none;
+      transition: background 0.55s;
+    }
+
+    /* ── RECOGNITION ITEM ── */
+    .recog-list { display: flex; flex-direction: column; gap: 0; }
+
+    .recog-item {
+      padding: 52px 0;
+      border-top: 1px solid var(--border);
+      opacity: 0; transform: translateY(18px);
+      transition: opacity 0.6s, transform 0.6s, border-color 0.55s;
+    }
+    .recog-item:last-child { border-bottom: 1px solid var(--border); }
+    .recog-item.visible { opacity: 1; transform: translateY(0); }
+
+    .recog-header { display: grid; grid-template-columns: 56px 1fr; gap: 0 32px; margin-bottom: 28px; }
+    .recog-num { font-family: var(--display-font); font-size: 44px; color: var(--bg-card); line-height: 1; user-select: none; padding-top: 2px; transition: color 0.55s, font-family 0.1s; }
+    .recog-from { font-size: 10px; letter-spacing: 0.15em; text-transform: uppercase; color: var(--accent); font-weight: 600; margin-bottom: 8px; transition: color 0.55s; }
+    .recog-title { font-family: var(--display-font); font-size: 24px; color: var(--fg); line-height: 1.2; margin-bottom: 10px; transition: color 0.55s, font-family 0.1s; }
+    .recog-context { font-size: 14px; line-height: 1.75; color: var(--fg-soft); font-weight: 300; transition: color 0.55s; }
+
+    /* ── SHARED IMAGE FRAME ── */
+    .img-wrap {
+      border-radius: 8px; overflow: hidden;
+      border: 1px solid var(--border);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.07);
+      transition: border-color 0.55s, box-shadow 0.3s;
+      background: var(--bg-card);
+    }
+    .img-wrap:hover { box-shadow: 0 8px 32px rgba(0,0,0,0.13); }
+    .img-wrap img { width: 100%; display: block; object-fit: contain; max-height: 520px; }
+    .img-caption { padding: 10px 16px; background: var(--bg-card); font-size: 11px; color: var(--fg-muted); letter-spacing: 0.06em; text-align: center; border-top: 1px solid var(--border); transition: background 0.55s, color 0.55s, border-color 0.55s; }
+
+    /* tool recognitions — slightly smaller images */
+    .img-wrap.tool-img img { max-height: 380px; }
+
+    /* ── FOOTER ── */
+    footer { background: var(--hero-r-bg); padding: 48px 0; text-align: center; position: relative; overflow: hidden; transition: background 0.55s; }
+    footer::before { content: 'RS'; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); font-family: var(--display-font); font-size: 160px; color: rgba(255,255,255,0.02); user-select: none; }
+    .footer-inner { position: relative; z-index: 1; }
+    .footer-name { font-family: var(--display-font); font-size: 18px; color: #fff; margin-bottom: 10px; }
+    .footer-links { display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; }
+    .footer-link { font-size: 13px; color: var(--accent-light); text-decoration: none; transition: color 0.3s; }
+    .footer-link:hover { color: var(--accent); }
+    .footer-copy { margin-top: 20px; font-size: 11px; color: rgba(255,255,255,0.18); }
+
+    @media (max-width: 700px) {
+      .header-inner, .page-body { padding: 0 20px; }
+      .page-header { padding: 60px 0 48px; }
+      .page-body { padding-top: 52px; padding-bottom: 100px; }
+      .cert-card { grid-template-columns: 1fr; }
+      .recog-header { grid-template-columns: 1fr; gap: 8px; }
+      .recog-num { font-size: 30px; }
+      #theme-switcher { bottom: 10px; padding: 5px 5px 5px 12px; }
+      #theme-dots { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <div id="theme-switcher">
+    <span id="theme-label">Theme</span>
+    <span id="theme-name">…</span>
+    <button class="pill-btn" id="btn-random" title="Random">⟳</button>
+    <button class="pill-btn" id="btn-next">Next →</button>
+    <div id="theme-dots"></div>
+  </div>
+
+  <header class="page-header">
+    <div class="header-inner">
+      <a class="back-link" href="index.html">
+        <svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg>
+        Back to Profile
+      </a>
+      <div class="page-eyebrow">Career Archive · Certifications &amp; Peer Recognition</div>
+      <h1 class="page-title">Recognitions &amp;<br><em>Certifications</em></h1>
+      <p class="page-subtitle">Formal certifications and peer recognitions earned early in my career as a MicroStrategy Architect and ETL specialist — reflecting both technical mastery and team impact.</p>
+    </div>
+  </header>
+
+  <main class="page-body">
+
+    <!-- ── CERTIFICATIONS ── -->
+    <div class="block-label">Certifications</div>
+    <div class="cert-section">
+      <div class="cert-card">
+        <div class="cert-half">
+          <div class="cert-badge ms">MA</div>
+          <div>
+            <div class="cert-name">MicroStrategy Certified Architect</div>
+            <div class="cert-issuer">MicroStrategy · Early Career</div>
+          </div>
+        </div>
+        <div class="cert-half">
+          <div class="cert-badge mc">CD</div>
+          <div>
+            <div class="cert-name">MicroStrategy Certified Content Developer</div>
+            <div class="cert-issuer">MicroStrategy · Early Career</div>
+          </div>
+        </div>
+      </div>
+      <!-- Certification image -->
+      <div class="img-wrap" style="border-radius:0 0 8px 8px; border-top:none;">
+        <img src="http://ramprasun.itgo.com/images/MSTR%20CD%20Certification.JPG" alt="MicroStrategy CD Certification" loading="lazy"/>
+        <div class="img-caption">MicroStrategy Certified Content Developer — Original Certificate</div>
+      </div>
+    </div>
+
+    <!-- ── PEER & LEADERSHIP RECOGNITIONS ── -->
+    <div class="block-label">Peer &amp; Leadership Recognitions</div>
+    <div class="recog-list">
+
+      <!-- 01 Zina -->
+      <div class="recog-item">
+        <div class="recog-header">
+          <div class="recog-num">01</div>
+          <div>
+            <div class="recog-from">From Zina Vladimirsky</div>
+            <div class="recog-title">Recognition — Zina Vladimirsky</div>
+            <p class="recog-context">Peer recognition from Zina Vladimirsky acknowledging contributions and collaborative impact on project deliverables during the early career period.</p>
+          </div>
+        </div>
+        <div class="img-wrap">
+          <img src="http://ramprasun.itgo.com/images/Recognition%20-%20Zina.JPG" alt="Recognition from Zina Vladimirsky" loading="lazy"/>
+          <div class="img-caption">Recognition — Zina Vladimirsky</div>
+        </div>
+      </div>
+
+      <!-- 02 DRA -->
+      <div class="recog-item">
+        <div class="recog-header">
+          <div class="recog-num">02</div>
+          <div>
+            <div class="recog-from">DRA Project</div>
+            <div class="recog-title">Recognition — DRA</div>
+            <p class="recog-context">Recognition received for contributions on the DRA project — reflecting strong technical delivery and cross-functional collaboration.</p>
+          </div>
+        </div>
+        <div class="img-wrap">
+          <img src="http://ramprasun.itgo.com/images/Recognition%20-%20DRA%20-%20Recruitment.JPG" alt="Recognition DRA Recruitment" loading="lazy"/>
+          <div class="img-caption">Recognition — DRA Project</div>
+        </div>
+      </div>
+
+      <!-- 03 BIS / IION -->
+      <div class="recog-item">
+        <div class="recog-header">
+          <div class="recog-num">03</div>
+          <div>
+            <div class="recog-from">BIS · IION Project</div>
+            <div class="recog-title">Recognition — BIS, IION</div>
+            <p class="recog-context">Recognition for work delivered on the BIS IION project, demonstrating consistent quality and technical depth in enterprise BI implementations.</p>
+          </div>
+        </div>
+        <div class="img-wrap">
+          <img src="http://ramprasun.itgo.com/images/Recognition%20-%20BIS%20-%20IION.JPG" alt="Recognition BIS IION" loading="lazy"/>
+          <div class="img-caption">Recognition — BIS, IION Project</div>
+        </div>
+      </div>
+
+      <!-- 04 SRA IION -->
+      <div class="recog-item">
+        <div class="recog-header">
+          <div class="recog-num">04</div>
+          <div>
+            <div class="recog-from">SRA · IION Project</div>
+            <div class="recog-title">Recognition — SRA, IION</div>
+            <p class="recog-context">Recognized for contributions to the IION project under SRA — a large-scale initiative where strong BI architecture and ETL tooling directly supported project success.</p>
+          </div>
+        </div>
+        <div class="img-wrap">
+          <img src="http://ramprasun.itgo.com/images/Recognition%20-%20SRA%20-%20IION.JPG" alt="Recognition SRA IION" loading="lazy"/>
+          <div class="img-caption">Recognition — SRA, IION Project</div>
+        </div>
+      </div>
+
+      <!-- 05 SRA CIC -->
+      <div class="recog-item">
+        <div class="recog-header">
+          <div class="recog-num">05</div>
+          <div>
+            <div class="recog-from">SRA · CIC Project</div>
+            <div class="recog-title">Recognition — SRA, CIC</div>
+            <p class="recog-context">Recognition for the CIC project under SRA — reflecting the ability to deliver quality analytical solutions under the complex demands of a multi-team enterprise engagement.</p>
+          </div>
+        </div>
+        <div class="img-wrap">
+          <img src="http://ramprasun.itgo.com/images/Recognition%20-%20SRA%20-%20CIC.JPG" alt="Recognition SRA CIC" loading="lazy"/>
+          <div class="img-caption">Recognition — SRA, CIC Project</div>
+        </div>
+      </div>
+
+      <!-- 06 Rajesh -->
+      <div class="recog-item">
+        <div class="recog-header">
+          <div class="recog-num">06</div>
+          <div>
+            <div class="recog-from">From Rajesh Ramamurthy</div>
+            <div class="recog-title">Recognition — Rajesh Ramamurthy</div>
+            <p class="recog-context">Leadership recognition from Rajesh Ramamurthy acknowledging technical excellence, initiative, and impact — a testament to early-career performance that set the trajectory for future leadership roles.</p>
+          </div>
+        </div>
+        <div class="img-wrap">
+          <img src="http://ramprasun.itgo.com/images/Recognition%20-%20Rajesh.JPG" alt="Recognition Rajesh Ramamurthy" loading="lazy"/>
+          <div class="img-caption">Recognition — Rajesh Ramamurthy</div>
+        </div>
+      </div>
+
+      <!-- 07 ETL Monitor Recognition -->
+      <div class="recog-item">
+        <div class="recog-header">
+          <div class="recog-num">07</div>
+          <div>
+            <div class="recog-from">Tool Recognition · ETL Monitor</div>
+            <div class="recog-title">ETL Process Monitor — Tool Recognition</div>
+            <p class="recog-context">Peer recognition for the ETL Process Monitor Tool — an automated ETL health monitor built to fill a platform gap and adopted by project teams for production use.</p>
+          </div>
+        </div>
+        <div class="img-wrap tool-img">
+          <img src="http://ramprasun.itgo.com/images/ETL%20Process%20Monitor%20Recognition.JPG" alt="ETL Process Monitor Recognition" loading="lazy"/>
+          <div class="img-caption">ETL Process Monitor — Recognition</div>
+        </div>
+      </div>
+
+      <!-- 08 Object Tracker Recognition -->
+      <div class="recog-item">
+        <div class="recog-header">
+          <div class="recog-num">08</div>
+          <div>
+            <div class="recog-from">Tool Recognition · MSTR Object Tracker</div>
+            <div class="recog-title">MSTR Object Tracker — Tool Recognition</div>
+            <p class="recog-context">Recognition for the MSTR Object Tracker — bringing version-control discipline to MicroStrategy project governance long before it was a native platform feature.</p>
+          </div>
+        </div>
+        <div class="img-wrap tool-img">
+          <img src="http://ramprasun.itgo.com/images/MSTR%20Object%20Tracker%20Recognition.JPG" alt="MSTR Object Tracker Recognition" loading="lazy"/>
+          <div class="img-caption">MSTR Object Tracker — Recognition</div>
+        </div>
+      </div>
+
+      <!-- 09 SQL Extraction Utility Recognition -->
+      <div class="recog-item">
+        <div class="recog-header">
+          <div class="recog-num">09</div>
+          <div>
+            <div class="recog-from">Tool Recognition · SQL Extraction Utility</div>
+            <div class="recog-title">MSTR SQL Extraction Utility — Tool Recognition</div>
+            <p class="recog-context">Recognition for the MSTR SQL Extraction Utility — enabling architects and developers to inspect, compare, and validate SQL generated by MicroStrategy reports across releases.</p>
+          </div>
+        </div>
+        <div class="img-wrap tool-img">
+          <img src="http://ramprasun.itgo.com/images/MSTR%20SQL%20Extraction%20Utility%20Recognition.JPG" alt="MSTR SQL Extraction Utility Recognition" loading="lazy"/>
+          <div class="img-caption">MSTR SQL Extraction Utility — Recognition</div>
+        </div>
+      </div>
+
+      <!-- 10 SQL Extraction of Prompts Recognition -->
+      <div class="recog-item">
+        <div class="recog-header">
+          <div class="recog-num">10</div>
+          <div>
+            <div class="recog-from">Tool Recognition · Prompt SQL Extraction</div>
+            <div class="recog-title">SQL Extraction of Prompts — Tool Recognition</div>
+            <p class="recog-context">Recognition for the Prompt SQL Extraction tool — solving a critical gap in MicroStrategy by exposing the exact SQL generated by complex prompts for analysis and debugging.</p>
+          </div>
+        </div>
+        <div class="img-wrap tool-img">
+          <img src="http://ramprasun.itgo.com/images/SQL%20Extraction%20of%20Prompts%20Recognition.JPG" alt="SQL Extraction of Prompts Recognition" loading="lazy"/>
+          <div class="img-caption">SQL Extraction of Prompts — Recognition</div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Cross-link to Innovations -->
+    <div style="margin-top:56px; padding:28px 32px; background:var(--bg-card); border-radius:8px; transition:background 0.55s;">
+      <div style="font-size:10px;letter-spacing:0.18em;text-transform:uppercase;color:var(--fg-muted);font-weight:600;margin-bottom:14px;transition:color 0.55s;">Developer Tools Built During This Period</div>
+      <div style="display:flex;flex-wrap:wrap;gap:10px;">
+        <a href="innovations.html" style="font-size:13px;padding:7px 16px;border-radius:100px;background:var(--accent-pale);color:var(--accent);text-decoration:none;font-weight:500;transition:all 0.2s,background 0.55s,color 0.55s;">ETL Monitor Tool</a>
+        <a href="innovations.html" style="font-size:13px;padding:7px 16px;border-radius:100px;background:var(--accent-pale);color:var(--accent);text-decoration:none;font-weight:500;transition:all 0.2s,background 0.55s,color 0.55s;">MSTR RLM Creator</a>
+        <a href="innovations.html" style="font-size:13px;padding:7px 16px;border-radius:100px;background:var(--accent-pale);color:var(--accent);text-decoration:none;font-weight:500;transition:all 0.2s,background 0.55s,color 0.55s;">MSTR SQL Documentation Tool</a>
+        <a href="innovations.html" style="font-size:13px;padding:7px 16px;border-radius:100px;background:var(--accent-pale);color:var(--accent);text-decoration:none;font-weight:500;transition:all 0.2s,background 0.55s,color 0.55s;">MSTR Prompt SQL Extraction Tool</a>
+        <a href="innovations.html" style="font-size:13px;padding:7px 16px;border-radius:100px;background:var(--accent-pale);color:var(--accent);text-decoration:none;font-weight:500;transition:all 0.2s,background 0.55s,color 0.55s;">MSTR Object Tracker</a>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-name">Ramprasun Sribhasyam</div>
+      <div class="footer-links">
+        <a class="footer-link" href="index.html">← Back to Profile</a>
+        <a class="footer-link" href="innovations.html">Innovations →</a>
+        <a class="footer-link" href="mailto:ramprasun@yahoo.com">ramprasun@yahoo.com</a>
+        <a class="footer-link" href="https://linkedin.com/in/ramprasun" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+      <div class="footer-copy">© 2026 Ramprasun Sribhasyam · Career Archive</div>
+    </div>
+  </footer>
+
+  <script>
+  const THEMES = [
+    { name:"Warm Sand", accent:"#c8572a", vars:{'--bg':'#faf8f4','--bg-alt':'#fff9f2','--bg-dark':'#1a1714','--bg-card':'#ede8de','--fg':'#1a1714','--fg-soft':'#3d3830','--fg-muted':'#7a7268','--accent':'#c8572a','--accent-light':'#e8a882','--accent-pale':'#f7ede6','--accent2':'#2a7c7a','--accent2-pale':'#e3f0ef','--border':'#e4ddd0','--hero-r-bg':'#1a1714','--display-font':"'Instrument Serif', serif",'--body-font':"'DM Sans', sans-serif"} },
+    { name:"Midnight Slate", accent:"#5b8dee", vars:{'--bg':'#0f1117','--bg-alt':'#161922','--bg-dark':'#090b10','--bg-card':'#1e2230','--fg':'#e8eaf0','--fg-soft':'#b8bcc8','--fg-muted':'#6b7080','--accent':'#5b8dee','--accent-light':'#8eb4f8','--accent-pale':'#1a2340','--accent2':'#3ecf8e','--accent2-pale':'#0d2a1e','--border':'#252a38','--hero-r-bg':'#090b10','--display-font':"'Syne', sans-serif",'--body-font':"'DM Sans', sans-serif"} },
+    { name:"Forest Ink", accent:"#4a7c59", vars:{'--bg':'#f2f4ef','--bg-alt':'#eaeee5','--bg-dark':'#1c2418','--bg-card':'#dde3d6','--fg':'#1c2418','--fg-soft':'#364030','--fg-muted':'#6b7a60','--accent':'#4a7c59','--accent-light':'#89b89a','--accent-pale':'#ddeee3','--accent2':'#8a6a2a','--accent2-pale':'#f0e8d4','--border':'#cdd6c4','--hero-r-bg':'#1c2418','--display-font':"'Fraunces', serif",'--body-font':"'DM Sans', sans-serif"} },
+    { name:"Crimson Editorial", accent:"#a01c2c", vars:{'--bg':'#fdfaf7','--bg-alt':'#f8f3ee','--bg-dark':'#1a0a0a','--bg-card':'#ede5dc','--fg':'#1a0a0a','--fg-soft':'#3a2020','--fg-muted':'#8a6a6a','--accent':'#a01c2c','--accent-light':'#d4727e','--accent-pale':'#f5dde0','--accent2':'#2c4a6a','--accent2-pale':'#dce8f0','--border':'#e0d4c8','--hero-r-bg':'#1a0a0a','--display-font':"'Playfair Display', serif",'--body-font':"'DM Sans', sans-serif"} },
+    { name:"Terminal Green", accent:"#00e060", vars:{'--bg':'#0a0f0a','--bg-alt':'#0d140d','--bg-dark':'#060b06','--bg-card':'#111811','--fg':'#a8f0a8','--fg-soft':'#78c878','--fg-muted':'#446044','--accent':'#00e060','--accent-light':'#60f0a0','--accent-pale':'#0a2010','--accent2':'#00c8c8','--accent2-pale':'#081818','--border':'#1a2e1a','--hero-r-bg':'#060b06','--display-font':"'Space Mono', monospace",'--body-font':"'Space Mono', monospace"} },
+    { name:"Ivory & Gold", accent:"#b8902a", vars:{'--bg':'#faf6ee','--bg-alt':'#f5f0e5','--bg-dark':'#1a1408','--bg-card':'#ece4d0','--fg':'#1a1408','--fg-soft':'#3a3010','--fg-muted':'#8a7840','--accent':'#b8902a','--accent-light':'#d8b860','--accent-pale':'#f5ecd0','--accent2':'#6a4a2a','--accent2-pale':'#ecddd0','--border':'#ddd0b0','--hero-r-bg':'#1a1408','--display-font':"'Cormorant Garamond', serif",'--body-font':"'DM Sans', sans-serif"} },
+    { name:"Arctic Blue", accent:"#1a6aaa", vars:{'--bg':'#f0f5fa','--bg-alt':'#e8f0f8','--bg-dark':'#0a1628','--bg-card':'#d8e8f4','--fg':'#0a1628','--fg-soft':'#1e3a5a','--fg-muted':'#4a6a8a','--accent':'#1a6aaa','--accent-light':'#6ab0e8','--accent-pale':'#ddeef8','--accent2':'#1aaa88','--accent2-pale':'#cceeea','--border':'#c0d8ee','--hero-r-bg':'#0a1628','--display-font':"'DM Serif Display', serif",'--body-font':"'DM Sans', sans-serif"} },
+    { name:"Rose Linen", accent:"#c04060", vars:{'--bg':'#fdf6f4','--bg-alt':'#f8eeeb','--bg-dark':'#280f10','--bg-card':'#eeddd8','--fg':'#280f10','--fg-soft':'#4a2020','--fg-muted':'#9a6a65','--accent':'#c04060','--accent-light':'#e07888','--accent-pale':'#fce8ec','--accent2':'#7a4aaa','--accent2-pale':'#edddf8','--border':'#e8d0cc','--hero-r-bg':'#280f10','--display-font':"'Libre Baskerville', serif",'--body-font':"'DM Sans', sans-serif"} },
+    { name:"Obsidian & Copper", accent:"#c86a20", vars:{'--bg':'#141210','--bg-alt':'#1c1814','--bg-dark':'#0a0806','--bg-card':'#241e18','--fg':'#f0e8e0','--fg-soft':'#c8b8a8','--fg-muted':'#807060','--accent':'#c86a20','--accent-light':'#e8a060','--accent-pale':'#2a1e10','--accent2':'#60a0c0','--accent2-pale':'#102030','--border':'#302820','--hero-r-bg':'#0a0806','--display-font':"'Rajdhani', sans-serif",'--body-font':"'DM Sans', sans-serif"} },
+    { name:"Sage Paper", accent:"#5c7a4a", vars:{'--bg':'#f4f5f0','--bg-alt':'#eceee8','--bg-dark':'#1a1e16','--bg-card':'#e0e4da','--fg':'#1a1e16','--fg-soft':'#383e30','--fg-muted':'#686e5e','--accent':'#5c7a4a','--accent-light':'#8aaa70','--accent-pale':'#dce8d4','--accent2':'#7a5c4a','--accent2-pale':'#e8dcd4','--border':'#d0d6c8','--hero-r-bg':'#1a1e16','--display-font':"'Cormorant Garamond', serif",'--body-font':"'DM Sans', sans-serif"} },
+    { name:"Neon Dusk", accent:"#c840e0", vars:{'--bg':'#0e0a18','--bg-alt':'#130f20','--bg-dark':'#08060f','--bg-card':'#1a1428','--fg':'#ece8f8','--fg-soft':'#b8b0d8','--fg-muted':'#6860a0','--accent':'#c840e0','--accent-light':'#e880f0','--accent-pale':'#280a30','--accent2':'#40c8e0','--accent2-pale':'#082830','--border':'#241e3a','--hero-r-bg':'#08060f','--display-font':"'Syne', sans-serif",'--body-font':"'DM Sans', sans-serif"} },
+    { name:"Parchment & Navy", accent:"#1e4a8a", vars:{'--bg':'#f8f4ec','--bg-alt':'#f2ecdf','--bg-dark':'#0e1a30','--bg-card':'#e8e0cc','--fg':'#0e1a30','--fg-soft':'#1e3050','--fg-muted':'#5a6878','--accent':'#1e4a8a','--accent-light':'#5a84c0','--accent-pale':'#dce4f0','--accent2':'#8a3a1e','--accent2-pale':'#f0dcd8','--border':'#ddd4bc','--hero-r-bg':'#0e1a30','--display-font':"'Playfair Display', serif",'--body-font':"'DM Sans', sans-serif"} },
+  ];
+
+  let currentIdx = Math.floor(Math.random() * THEMES.length);
+  const dotsEl = document.getElementById('theme-dots');
+  THEMES.forEach((t, i) => {
+    const d = document.createElement('span');
+    d.className = 'tdot' + (i === currentIdx ? ' active' : '');
+    d.style.background = t.accent; d.title = t.name;
+    d.addEventListener('click', () => switchTheme(i));
+    dotsEl.appendChild(d);
+  });
+  function updateDots() { document.querySelectorAll('.tdot').forEach((d,i) => d.classList.toggle('active', i===currentIdx)); }
+
+  const slowStyle = document.createElement('style');
+  slowStyle.textContent = `.slow-fade,.slow-fade *{transition:background 2s ease,color 2s ease,border-color 2s ease !important;}`;
+  document.head.appendChild(slowStyle);
+
+  function switchTheme(idx, auto=false) {
+    currentIdx = idx;
+    const t = THEMES[idx];
+    if (auto) { document.body.classList.add('slow-fade'); setTimeout(()=>document.body.classList.remove('slow-fade'),2200); }
+    for (const [k,v] of Object.entries(t.vars)) document.documentElement.style.setProperty(k,v);
+    document.getElementById('theme-name').textContent = t.name;
+    updateDots();
+  }
+
+  (() => { const t = THEMES[currentIdx]; for (const [k,v] of Object.entries(t.vars)) document.documentElement.style.setProperty(k,v); document.getElementById('theme-name').textContent = t.name; })();
+
+  let autoT = null;
+  function scheduleAuto() { autoT = setTimeout(() => { let n; do{n=Math.floor(Math.random()*THEMES.length);}while(n===currentIdx&&THEMES.length>1); switchTheme(n,true); scheduleAuto(); }, (60+Math.random()*60)*1000); }
+  scheduleAuto();
+
+  document.getElementById('btn-next').addEventListener('click', () => { clearTimeout(autoT); switchTheme((currentIdx+1)%THEMES.length); scheduleAuto(); });
+  document.getElementById('btn-random').addEventListener('click', () => { clearTimeout(autoT); let n; do{n=Math.floor(Math.random()*THEMES.length);}while(n===currentIdx&&THEMES.length>1); switchTheme(n); scheduleAuto(); });
+
+  const obs = new IntersectionObserver(entries => {
+    entries.forEach(e => { if(e.isIntersecting){ setTimeout(()=>e.target.classList.add('visible'), +(e.target.dataset.delay||0)); obs.unobserve(e.target); } });
+  }, {threshold:0.08});
+  document.querySelectorAll('.recog-item, .cert-half').forEach((el,i) => { el.dataset.delay = i*80; obs.observe(el); });
+  </script>
+</body>
+</html>
